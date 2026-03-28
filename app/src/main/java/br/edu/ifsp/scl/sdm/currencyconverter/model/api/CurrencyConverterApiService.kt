@@ -9,14 +9,14 @@ import retrofit2.http.Query
 
 interface CurrencyConverterApiService {
     @Headers(
-        "x-rapidapi-host: currency-converter-by-api-ninjas.p.rapidapi.com",
+        "x-rapidapi-host: currency-converter5.p.rapidapi.com",
         "x-rapidapi-key: f88850b3afmshe5a00ed0f9d32d5p1a21bbjsn1dc587cfc7b0"
     )
     @GET("list")
     fun getCurrencies(): Call<CurrencyList>
 
     @Headers(
-        "x-rapidapi-host: currency-converter-by-api-ninjas.p.rapidapi.com",
+        "x-rapidapi-host: currency-converter5.p.rapidapi.com",
         "x-rapidapi-key: f88850b3afmshe5a00ed0f9d32d5p1a21bbjsn1dc587cfc7b0"
     )
     @GET("convert")
