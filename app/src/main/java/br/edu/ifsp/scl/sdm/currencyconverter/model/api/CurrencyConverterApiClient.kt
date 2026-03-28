@@ -10,5 +10,5 @@ object CurrencyConverterApiClient {
         GsonConverterFactory.create()
     ).build()
 
-    val service: CurrencyConverterApiClient = retrofit.create(CurrencyConverterApiClient::class.java)
+    val service: CurrencyConverterApiService = retrofit.create(CurrencyConverterApiService::class.java)
 }
